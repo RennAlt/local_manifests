@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote  name="mi-thorium"
+           fetch="https://github.com/Mi-Thorium"
+           revision="a13/master" />
+
+  <remote  name="mi-eldarion"
+           fetch="https://github.com/Mi-Eldarion"
+           revision="a13/master" />
+
+  <remote  name="alts-project"
+           fetch="https://github.com/Mi-Eldarion"
+           revision="a13/master" />
+  
+  <remote  name="al"
+           fetch="https://github.com/k4ngcaribug"
+           revision="a13/master" />
+
+ <!-- Dependencies -->
+
+ <!-- Replacements -->
+
+ <!-- Common -->
+  <project path="device/xiaomi/msm8953-common" name="android_device_xiaomi_msm8953-common"     groups="device" remote="mi-eldarion" revision="a13-R"/>
+  <project path="vendor/xiaomi/msm8953-common" name="proprietary_vendor_xiaomi_msm8953-common" groups="device" remote="alts-project" revision="a13-R"/>
+
+ <!-- YSL -->
+  <project path="device/xiaomi/ysl"        name="device_xiaomi_ysl_4.19"        groups="device" remote="mi-eldarion" revision="ysl-r-stack"/>
+  <project path="vendor/xiaomi/ysl"        name="proprietary_vendor_xiaomi_ysl"    groups="device" remote="mi-eldarion" revision="lineage-20"/>
+  <project path="kernel/xiaomi/msm8953"    name="kernel_xiaomi_ysl"      remote="al" revision="main"/>
+  
+
+</manifest>
