@@ -9,7 +9,7 @@
            revision="a13/master" />
 
   <remote  name="alts-project"
-           fetch="https://github.com/Mi-Eldarion"
+           fetch="https://github.com/Alts-Project"
            revision="a13/master" />
   
   <remote  name="al"
