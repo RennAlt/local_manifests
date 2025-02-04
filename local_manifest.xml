@@ -16,6 +16,10 @@
            fetch="https://github.com/k4ngcaribug"
            revision="a13/master" />
 
+  <remote  name="RennAlt"
+           fetch="https://github.com/RennAlt"
+           revision="a13/master" />
+
  <!-- Dependencies -->
 
  <!-- Replacements -->
