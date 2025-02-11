@@ -29,7 +29,7 @@
  <!-- YSL -->
   <project path="device/xiaomi/ysl"        name="device_xiaomi_ysl"        groups="device" remote="mi-eldarion" revision="ysl-r-stack"/>
   <project path="vendor/xiaomi/ysl"        name="proprietary_vendor_xiaomi_ysl"    groups="device" remote="mi-eldarion" revision="lineage-20"/>
-  <project path="kernel/xiaomi/msm8953"        name="msm-4.19"      remote="mi-eldarion" revision="qti-haptic"/>
+  <project path="kernel/xiaomi/msm8953"        name="kernel_xiaomi_ysl"      remote="RennAlt" revision="main"/>
   <project path="hardware/xiaomi"        name="android_hardware_xiaomi"      remote="RennAlt" revision="lineage-20"/>
   
 </manifest>
