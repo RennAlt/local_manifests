@@ -32,6 +32,7 @@
   <project path="kernel/xiaomi/msm8953"        name="kernel_xiaomi_ysl"      remote="RennAlt" revision="main"/>
   <project path="hardware/xiaomi"        name="android_hardware_xiaomi"      remote="RennAlt" revision="lineage-20"/>
   <project path="platform/external/Camera"        name="camera"      remote="RennAlt" revision="13"/>
+  <project path="vendor/extra" name="vendor_extra" remote="al" revision="ten" />
   
   
 </manifest>
